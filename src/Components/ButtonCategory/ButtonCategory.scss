@@ -1,0 +1,22 @@
+.Button-category{
+  display: none;
+  padding: 6px;
+  margin: 0 7px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  border: 1px solid rgb(51, 224, 51);
+  border-radius: 9px;
+  color: rgb(13, 151, 13);
+
+  @media screen and (min-width: 700px){
+    display: inherit;
+  }
+}
+
+.chosen{
+  background-color: green;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
